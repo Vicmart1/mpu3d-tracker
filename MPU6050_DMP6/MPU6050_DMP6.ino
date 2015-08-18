@@ -163,6 +163,8 @@ void(* resetFunc) (void) = 0;//declare reset function at address 0
 // ================================================================
 
 void setup() {
+  
+    //Initialize the green and red pins
     pinMode(RED, OUTPUT);
     pinMode(GREEN, OUTPUT);
   
