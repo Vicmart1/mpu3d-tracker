@@ -67,14 +67,7 @@ void setup() { //<>//
     // display serial port list for debugging/clarity
     println(Serial.list());
 
-    // get the first available port (use EITHER this OR the specific port code below)
-    //String portName = "/dev/cu.usbmodem1411";
-    //String portName = "/dev/cu.HC-06-DevB";
-    //String portName = "COM4";
-
-    // get a specific serial port (use EITHER this OR the first-available code above)
-    //String portName = "COM1"; //<>//
-  
+    //Asks which port user wants to connect through 
     Object[] possibilities = Serial.list();
 
     JFrame frmOpt = new JFrame();

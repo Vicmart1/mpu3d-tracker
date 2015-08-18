@@ -7,8 +7,8 @@ INSTALLATION
 		remove the device from that computer before pairing it with the current one.
 
 2. Start the application, located in the respective folder in the MPU3D folder. Select the bluetooth port to use. 
-	On Windows, this is usually "COM3" or "COM6".
-	On Mac, this is usually "/dev/cu.HC-06-DevB".
+	On Windows, this is usually "COM3" or "COM6" for bluetooth and “COM1” for USB.
+	On Mac, this is usually "/dev/cu.HC-06-DevB" for bluetooth and “/dev/cu.HC-06-DevB” for USB.
 
 3. Position the Arduino to face away from the monitor, to the left, for optimal tracking. The Arduino should point to the 9 o'clock.
 	(The front of the Arduino is defined as the side with the two LEDs on it.)
